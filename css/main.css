@@ -1,0 +1,186 @@
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	font-family: "Montserrat", Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #707070;
+	background-color: #fff;
+}
+
+h2, h3
+{
+	font-family: "Montserrat", Times, serif;
+}
+
+p
+{
+	line-height: 24px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+#container
+{
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: auto;
+}
+
+#mainHeader
+{
+	display: flex;
+	flex-direction: column;
+	height: 450px;
+	background: url('../images/wallpaper-green-steeringwheel.jpg') no-repeat;
+	margin-top: 30px;
+}
+
+#mainHeader img
+{
+	position:absolute;
+	top: 45%;
+	left: 65%;
+}
+
+#mainHeader p
+{
+	position:absolute;
+	top: 60%;
+	left: 65%;
+	font-size: 24px;
+	color: #ecc33d;
+	width: 300px;
+	height: 50px;
+	margin-top: 10px;
+	line-height: 30px;
+}
+
+#promo
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+
+}
+
+#promo p
+{
+	font-size: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 100px;
+	text-align: center;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+
+#promo p:first-letter
+{
+	font-family: "carlsberg", Helvetica, sans-serif;
+	font-size: 36px;
+	color: #022d04;
+}
+
+#mainFooter
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 50px;
+	background-color: #a8c735;
+	height: 200px;
+}
+
+#footerNav ul
+{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: flex-start;*/
+	margin-left: 40px;
+}
+
+#footerNav ul li a
+{
+	display: block;
+	width: 150px;
+	color: #707070;;
+	/*text-align: center;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px;
+	transition: all .3s ease-in-out;
+	margin-left: 20px;
+}
+
+#secondNav ul
+{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 40px;
+}
+
+#secondNav ul li a
+{
+	display: block;
+	width: 150px;
+	color: #707070;;
+	/*text-align: center;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px;
+	transition: all .3s ease-in-out;
+	margin-left: 300px;
+}
+
+#mainFooter p
+{
+	font-family: "carlsberg", Helvetica, sans-serif;
+	font-size: 20px;
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+#products
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.productImageText
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+	
+}
+
+#product1Text
+{
+	width: 570px;
+	height:400px;
+	background-color: #ca7e2f;
+}
+
+#product2Text
+{
+	width: 570px;
+	height:400px;
+	background-color: #af1c27;
+}
+
